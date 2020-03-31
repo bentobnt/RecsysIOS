@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RecsysIOS_Example' do
+  pod 'RecsysIOS', :path => '../'
+
+  target 'RecsysIOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
