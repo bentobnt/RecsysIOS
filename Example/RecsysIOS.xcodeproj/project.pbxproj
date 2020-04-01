@@ -30,9 +30,9 @@
 /* Begin PBXFileReference section */
 		16F8A5A7529516CA9CF83F73 /* Pods_RecsysIOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecsysIOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		176FB2EB5DCDC14A0D25E387 /* Pods-RecsysIOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecsysIOS_Example.release.xcconfig"; path = "Target Support Files/Pods-RecsysIOS_Example/Pods-RecsysIOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1DA752D49FF988D158C0FB09 /* RecsysIOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RecsysIOS.podspec; path = ../RecsysIOS.podspec; sourceTree = "<group>"; };
-		34BB4E4C6ADA89B0BFC46237 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4B8EA45725E501EE29E78FE2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1DA752D49FF988D158C0FB09 /* RecsysIOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RecsysIOS.podspec; path = ../RecsysIOS.podspec; sourceTree = "<group>"; };
+		34BB4E4C6ADA89B0BFC46237 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4B8EA45725E501EE29E78FE2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4E73B49CE72626E7AD5223D2 /* Pods_RecsysIOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecsysIOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* RecsysIOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecsysIOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				BECA10487AFA189803814815 /* Pods-RecsysIOS_Tests.debug.xcconfig */,
 				732ECF4598A23B15AFAADAAF /* Pods-RecsysIOS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

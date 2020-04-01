@@ -1,0 +1,22 @@
+{
+  "name": "RecsysIOS",
+  "version": "0.1.0",
+  "summary": "A short description of RecsysIOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/bentobnt/RecsysIOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bentobnt": "bento@leanwork.com.br"
+  },
+  "source": {
+    "git": "https://github.com/bentobnt/RecsysIOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RecsysIOS/Classes/**/*"
+}

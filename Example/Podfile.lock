@@ -1,0 +1,16 @@
+PODS:
+  - RecsysIOS (0.1.0)
+
+DEPENDENCIES:
+  - RecsysIOS (from `../`)
+
+EXTERNAL SOURCES:
+  RecsysIOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RecsysIOS: 50a7eafb4cd761ce1cd4b4e2865895c7a360033c
+
+PODFILE CHECKSUM: 8a3f29b78489475a7d7d9a9224dc63c93a22bcfa
+
+COCOAPODS: 1.8.4
